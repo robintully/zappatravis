@@ -1,6 +1,6 @@
 '''the core application'''
 from flask import Flask
-from helper import rand_result
+from app.helper import rand_result
 
 APP = Flask(__name__)
 

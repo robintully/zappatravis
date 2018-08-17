@@ -4,7 +4,6 @@ python: '3.6'
 install:
   - pip install -r requirements.txt
 script:
-  - pylint app
   - pytest
 after_success: 
   - zappa update dev

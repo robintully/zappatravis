@@ -1,6 +1,6 @@
 {
     "dev": {
-        "app_function": "app.routes.app",
+        "app_function": "run.app",
         "aws_region": "us-east-1",
         "project_name": "zappatravis",
         "runtime": "python3.6",

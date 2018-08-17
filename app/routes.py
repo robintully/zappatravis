@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return str(rand_result())
+    return 'float'
 
 @app.route("/string")
 def string():

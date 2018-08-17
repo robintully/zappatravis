@@ -9,5 +9,8 @@ script:
   - pylint app
   - pytest
 
-after_success: 
-  - zappa update dev
+deploy:
+  provider: script
+  script: zappa update dev
+  on:
+    branch: master

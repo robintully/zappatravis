@@ -12,4 +12,4 @@ def hello():
 @BLUEPRINT.route("/string")
 def string():
     '''another route'''
-    return 'cool'
+    return 'cool it worked'

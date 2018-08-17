@@ -1,6 +1,8 @@
 from flask import Flask
+from .helper import rand_result
+
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Servers are dead, Long live Traviz Lambda!"
+    return str(rand_result())

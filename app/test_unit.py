@@ -1,6 +1,6 @@
 '''runs the tests'''
-import helper
+from app.helper import rand_result
 
 def test_function():
     '''this is a test'''
-    assert isinstance(helper.rand_result(), int)
+    assert isinstance(rand_result(), int)

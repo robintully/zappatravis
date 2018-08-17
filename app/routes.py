@@ -9,4 +9,4 @@ def hello():
 
 @app.route("/string")
 def string():
-    return 'hello'
+    return 'cool'

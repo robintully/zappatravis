@@ -13,3 +13,8 @@ def hello():
 def string():
     '''another route'''
     return 'cool'
+
+@BLUEPRINT.route("/katy")
+def hello_katy():
+    '''a route'''
+    return 'hello katy, thanks for looking at this!'

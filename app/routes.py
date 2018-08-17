@@ -1,12 +1,15 @@
+'''the core application'''
 from flask import Flask
-from .helper import rand_result
+from helper import rand_result
 
-app = Flask(__name__)
+APP = Flask(__name__)
 
-@app.route("/")
+@APP.route("/")
 def hello():
+    '''a route'''
     return str(rand_result())
 
-@app.route("/string")
+@APP.route("/string")
 def string():
+    '''another route'''
     return 'cool'

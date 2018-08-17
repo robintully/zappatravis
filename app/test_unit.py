@@ -1,4 +1,6 @@
+'''runs the tests'''
 import helper
 
 def test_function():
-    assert type(helper.rand_result()) == int
+    '''this is a test'''
+    assert isinstance(helper.rand_result(), int)
